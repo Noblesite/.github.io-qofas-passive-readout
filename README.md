@@ -1,3 +1,10 @@
+# Passive Qubit Detection with QOFAS
+
+[![DOI](https://zenodo.org/badge/962704569.svg)](https://doi.org/10.5281/zenodo.15175822)
+
+This repository contains the whitepaper and publication files for a theoretical quantum readout system...
+
+
 ---
 title: Passive Qubit Detection
 ---

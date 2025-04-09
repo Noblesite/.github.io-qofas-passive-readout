@@ -85,6 +85,54 @@ These are measurable using interferometers, Michelson setups, or optical cavity 
 
 ---
 
+## 📏 Observables & Equations
+
+QOFAS translates field-induced optical distortion into measurable phase shifts and scattering effects. The following equations support quantifiable simulation and experimental modeling:
+
+### - Phase Shift from Refractive Index Modulation:
+**Δφ = (2πnL)/λ**
+
+Where:  
+- Δφ = optical phase shift  
+- n = effective refractive index (modulated by EM field)  
+- L = path length of light through QOFAS zone  
+- λ = wavelength of the probing laser  
+
+---
+
+### - Index Perturbation from Field Strength:
+**Δn = αE²**
+
+Where:  
+- Δn = change in refractive index  
+- α = material-specific electro-optic coefficient  
+- E = local electric field strength  
+
+---
+
+### - Fringe Displacement Sensitivity:
+Fringe visibility improves non-linearly with pass count in multi-pass systems:
+
+**Δx ∝ Δφ × N_passes**
+
+Where:  
+- Δx = fringe shift on detector  
+- N_passes = number of optical passes through the QOFAS field region
+
+> At 3000 V/m, Δφ was simulated to be ~8.06e-12 radians. With >50 optical passes, this yields observable fringe displacement using standard interferometry.
+
+---
+
+### - Resonant Field-Particle Oscillation (Piezoelectric Particles):
+**f_res ∝ (1/2π) × √(k_eff/m)**
+
+Where:  
+- f_res = natural resonance frequency of nanoparticle lattice  
+- k_eff = effective spring constant (field-coupled)  
+- m = mass of the nanoparticle  
+
+This coupling predicts birefringence and angular scattering patterns as a function of EM field alignment.
+
 ## 🧰 Engineering and Deployment
 
 - QOFAS layers can be integrated into cryogenic qubit arrays

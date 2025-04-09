@@ -1,5 +1,7 @@
 # QOFAS: Passive Superposition Detection and Field Readout for Quantum Information Systems
 
+[![DOI](https://zenodo.org/badge/962704569.svg)](https://doi.org/10.5281/zenodo.15175822)
+
 > **Author:** Jonathon Poe  
 > **Contact:** noblesite@gmail.com  
 > **License:** CC BY 4.0 International  
@@ -21,6 +23,8 @@ This repository contains the full whitepaper, simulations, and conceptual diagra
 - Passive diagnostics for fusion reactors
 
 📎 [Download Full Whitepaper (PDF)](./QOFAS_Whitepaper.pdf)
+
+![QOFAS Concept Diagram](./images/qofas_diagram.png)
 
 ---
 
@@ -72,6 +76,44 @@ These are measurable using interferometers, Michelson setups, or optical cavity 
 
 ---
 
+## 📏 Observables & Equations
+
+### - Phase Shift from Refractive Index Modulation:
+**Δφ = (2πnL)/λ**
+
+Where:
+- Δφ = optical phase shift
+- n = effective refractive index (modulated by EM field)
+- L = path length of light through QOFAS zone
+- λ = wavelength of the probing laser
+
+### - Index Perturbation from Field Strength:
+**Δn = αE²**
+
+Where:
+- Δn = change in refractive index
+- α = material-specific electro-optic coefficient
+- E = local electric field strength
+
+### - Fringe Displacement Sensitivity:
+**Δx ∝ Δφ × N_passes**
+
+Where:
+- Δx = fringe shift on detector
+- N_passes = number of optical passes through the QOFAS field region
+
+> At 3000 V/m, Δφ was simulated to be ~8.06e-12 radians. With >50 optical passes, this yields observable fringe displacement using standard interferometry.
+
+### - Resonant Field-Particle Oscillation (Piezoelectric Particles):
+**f_res ∝ (1/2π) × √(k_eff/m)**
+
+Where:
+- f_res = natural resonance frequency of nanoparticle lattice
+- k_eff = effective spring constant (field-coupled)
+- m = mass of the nanoparticle
+
+---
+
 ## 🧪 Simulation Framework
 
 ### 1. Entanglement Field Interference
@@ -84,54 +126,6 @@ These are measurable using interferometers, Michelson setups, or optical cavity 
 - Finite-difference and beam propagation methods validate visible fringe displacement
 
 ---
-
-## 📏 Observables & Equations
-
-QOFAS translates field-induced optical distortion into measurable phase shifts and scattering effects. The following equations support quantifiable simulation and experimental modeling:
-
-### - Phase Shift from Refractive Index Modulation:
-**Δφ = (2πnL)/λ**
-
-Where:  
-- Δφ = optical phase shift  
-- n = effective refractive index (modulated by EM field)  
-- L = path length of light through QOFAS zone  
-- λ = wavelength of the probing laser  
-
----
-
-### - Index Perturbation from Field Strength:
-**Δn = αE²**
-
-Where:  
-- Δn = change in refractive index  
-- α = material-specific electro-optic coefficient  
-- E = local electric field strength  
-
----
-
-### - Fringe Displacement Sensitivity:
-Fringe visibility improves non-linearly with pass count in multi-pass systems:
-
-**Δx ∝ Δφ × N_passes**
-
-Where:  
-- Δx = fringe shift on detector  
-- N_passes = number of optical passes through the QOFAS field region
-
-> At 3000 V/m, Δφ was simulated to be ~8.06e-12 radians. With >50 optical passes, this yields observable fringe displacement using standard interferometry.
-
----
-
-### - Resonant Field-Particle Oscillation (Piezoelectric Particles):
-**f_res ∝ (1/2π) × √(k_eff/m)**
-
-Where:  
-- f_res = natural resonance frequency of nanoparticle lattice  
-- k_eff = effective spring constant (field-coupled)  
-- m = mass of the nanoparticle  
-
-This coupling predicts birefringence and angular scattering patterns as a function of EM field alignment.
 
 ## 🧰 Engineering and Deployment
 
@@ -166,3 +160,4 @@ By leveraging naturally occurring optical field distortions, QOFAS may become a 
 ## 🧠 License
 
 This work is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+

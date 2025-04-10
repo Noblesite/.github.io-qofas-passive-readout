@@ -129,7 +129,10 @@ Where:
 
 ## 🖼️ Visual Concepts
 
+### QOFAS System Schematic
 ![QOFAS Schematic - Shows optical probe path and fluid shell concept](./images/qofas_schematic.png)
+
+### Simulated Entanglement Field Interference
 ![Entanglement Field Simulation - Interference fringes from shared quantum states](./images/entanglement_field_simulation.png)
 
 ---

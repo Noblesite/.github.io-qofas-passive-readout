@@ -137,7 +137,12 @@ Where:
 
 ---
 
+🔬 Try the interactive simulation:  
+[QOFAS_Quantum_Entanglement_Simulations.ipynb](./notebooks/QOFAS_Quantum_Entanglement_Simulations.ipynb)
+
 ## 🧰 Engineering and Deployment
+
+---
 
 - QOFAS layers can be integrated into cryogenic qubit arrays
 - Vacuum-compatible versions may support fusion diagnostics

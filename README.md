@@ -129,11 +129,8 @@ Where:
 
 ## 🖼️ Visual Concepts
 
-### QOFAS System Schematic
-![QOFAS System Schematic](./images/qofas_schematic.png)
-
-### Simulated Entanglement Field Interference
-![Entanglement Field Simulation](./images/entanglement_field_simulation.png)
+![QOFAS Schematic - Shows optical probe path and fluid shell concept](./images/qofas_schematic.png)
+![Entanglement Field Simulation - Interference fringes from shared quantum states](./images/entanglement_field_simulation.png)
 
 ---
 
@@ -163,7 +160,8 @@ By leveraging naturally occurring optical field distortions, QOFAS may become a 
 
 ## 🧾 Citation
 
-> Poe, J. *QOFAS: Passive Superposition Detection and Field Readout for Quantum Information Systems*. DOI: [10.5281/zenodo.15175822](https://doi.org/10.5281/zenodo.15175822)
+> Poe, J. *QOFAS: Passive Superposition Detection and Field Readout for Quantum Information Systems*.  
+> DOI: [10.5281/zenodo.15175822](https://doi.org/10.5281/zenodo.15175822)
 
 ---
 

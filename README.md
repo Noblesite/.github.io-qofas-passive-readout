@@ -127,6 +127,16 @@ Where:
 
 ---
 
+## 🖼️ Visual Concepts
+
+### QOFAS System Schematic
+![QOFAS System Schematic](./images/qofas_schematic.png)
+
+### Simulated Entanglement Field Interference
+![Entanglement Field Simulation](./images/entanglement_field_simulation.png)
+
+---
+
 ## 🧰 Engineering and Deployment
 
 - QOFAS layers can be integrated into cryogenic qubit arrays

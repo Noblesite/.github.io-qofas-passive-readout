@@ -129,7 +129,7 @@ Where:
 
 ## 🖼️ Visual Concepts
 
-### QOFAS System Schematic
+### QOFAS System Schematic - Qubit
 ![QOFAS Schematic - Shows optical probe path and fluid shell concept](./images/qofas_schematic.png)
 
 ### Simulated Entanglement Field Interference

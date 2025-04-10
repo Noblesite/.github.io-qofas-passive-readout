@@ -137,7 +137,7 @@ Where:
 
 ---
 
-🔬 Try the interactive simulation:  
+## 🔬 Try the interactive simulation:  
 [QOFAS_Quantum_Entanglement_Simulations.ipynb](./notebooks/QOFAS_Quantum_Entanglement_Simulations.ipynb)
 
 ## 🧰 Engineering and Deployment
